@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Min andra hemsida</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--Kroppen på min sida-->
     <header>
         <!--Sidhuvud och navigation-->
-        <h1> Min hemsida</h1>
+        <h1>Min hemsida</h1>
         <a class="active" href="index.html">Startsida</a>
         <a href="about.html">Om mig</a>
         <a href="hobbys.html">Mina hobbys</a>
@@ -19,9 +20,18 @@
     </header>
  <main> 
         <!--Huvud innehåll på sidan-->
-        <p id="my-id">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur saepe, odit nobis minus dicta omnis nihil? Voluptatum animi explicabo pariatur, magnam quo adipisci cum eveniet totam dignissimos tempore. Alias, sit.</p>
-        <p class="my-class"></p>
-        <p class="two class"></p>
+        <h1>Kontakta mig</h1>
+        <form>
+            <label for="name">Name:</label><br>
+            <input class="my-form" type="text" id="name" name="name"> <br>
+
+            <label for="email">Email:</label><br>
+            <input class="my-form" type="email" id="email" name="email"><br>
+
+            <label for="message">Meddelande:</label><br>
+            <textarea class="my-form" id="message" name="message"></textarea><br>
+             <input type="submit" value="Skicka">
+        </form>
     </main>
     <footer>
         <!--Sidfot, copyright och annat-->
