@@ -17,19 +17,21 @@
         <a href="about.html">Om mig</a>
         <a href="hobbys.html">Mina hobbys</a>
         <a class="active" href="contact.html">Kontakt</a>
+        <nav></nav>
+
     </header>
  <main> 
         <!--Huvud innehåll på sidan-->
         <h1>Kontakta mig</h1>
         <form>
             <label for="name">Name:</label><br>
-            <input class="my-form" type="text" id="name" name="name"> <br>
+            <input class="my-form" type="text" id="name" name="name" placeholder="Ditt namn" required><br>
 
             <label for="email">Email:</label><br>
-            <input class="my-form" type="email" id="email" name="email"><br>
+            <input class="my-form" type="email" id="email" name="email" placeholder="Din epost" required><br>
 
             <label for="message">Meddelande:</label><br>
-            <textarea class="my-form" id="message" name="message"></textarea><br>
+            <textarea class="my-form" id="message" name="message" placeholder="Ditt meddelande"></textarea><br>
              <input type="submit" value="Skicka">
         </form>
     </main>
